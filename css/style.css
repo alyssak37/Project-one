@@ -38,3 +38,16 @@ header {
     font-size: 30px;
     text-shadow: 1px 1px 10px rgb(243, 243, 164);
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.box {
+    display: flex;
+    height: 150px;
+}
