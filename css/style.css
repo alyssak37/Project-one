@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+
+main > section {
+    
+    flex-wrap: wrap;
+    
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 155, 123);
+    height: 75px;
+    min-width: auto;
+
+}
+
+header {
+    font-family: Verdana;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px rgb(243, 243, 164);
+}
