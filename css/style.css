@@ -11,22 +11,26 @@ body{
 }
 
 main {
-    
+    display: flex;
     flex-grow: 1;
     flex-direction: column;
     
 }
 
 main > section {
-    
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     
 }
 
 .card {
-    text-transform: capitalize;
-    height: 300 px;
-    width: 200px;
+    min-height: 150 px;
+    min-width: 300 px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 .outline {
@@ -56,9 +60,9 @@ header {
 
 form {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: baseline;
+    align-items: flex-end;
     height: 200px;
-    
+    padding-bottom: 5px;
 }
 

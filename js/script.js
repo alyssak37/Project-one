@@ -26,13 +26,26 @@ init();
  function getData(detailURL){
  const url = detailURL ? detailURL :BASE_URL
      $.ajax(BASE_URL + '?q=avocado&app_id=' + id + '&app_key=' + key)
-     .then(data => console.log(data))
-     
-     .then(error => console.log(error))
-  
+     .then(function(data) {
+         console.log('Data:', data)
+         if(detailURL) {
 
- };
+             recipeDetail = data;
+            render(true);
+             
+         } else {
+             recipeData = data; 
+             render();
+         }
+     }, function(error) {
+        console.log('Error:', error);
+     });
+ }
 
  function handleGetData(event) {
     event.preventDefault();
+ }
+ 
+
+ function renderRecipes() {
  }
