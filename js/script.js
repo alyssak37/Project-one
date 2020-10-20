@@ -57,5 +57,5 @@ function handleClick() {
 
 
 function renderRecipes(){
-   $input.html(`Recipes For: ${recipeData.hits.length}`)
+   $input.text(`Recipes For: ${recipeData.hits.length}`)
 }

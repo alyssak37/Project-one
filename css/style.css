@@ -31,6 +31,7 @@ main > section {
     border-radius: 10px;
     margin: 10px;
     text-align: center;
+    background-color: rgb(168, 190, 168);
 }
 
 .outline {
@@ -64,5 +65,14 @@ form {
     align-items: flex-end;
     height: 200px;
     padding-bottom: 5px;
+}
+
+img {
+max-width: 200px;
+max-height: 200px;
+transform: rotate(90deg);
+
+
+
 }
 
