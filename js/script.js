@@ -15,6 +15,7 @@ let recipeData, recipeDetail;
 //cached references
 const $input = $('input[type="text"]');
 const $form = $('form');
+const $title = $('#title');
 const userInput = $input.val();
 //event listeners 
 $form.on('submit', handleClick);
@@ -29,7 +30,7 @@ init();
  
  function getData(detailURL){
  const url = detailURL ? detailURL :BASE_URL
-     $.ajax(BASE_URL + '?q=' + userInput + '&app_id=' + id + '&app_key=' + key)
+     $.ajax(BASE_URL + '?q=chicken&app_id=' + id + '&app_key=' + key)
       .then(function(data) {
          console.log('Data:', data)
          if(detailURL) {
@@ -57,5 +58,5 @@ function handleClick() {
 
 
 function renderRecipes(){
-   $input.text(`Recipes For: ${recipeData.hits.length}`)
+   $title.text(`Recipes Using: ${recipeData.hits[0]["label"]}`);
 }
