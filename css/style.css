@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(245, 231, 231);
 }
 
 main {
@@ -26,8 +27,8 @@ main > section {
 }
 
 .card {
-    min-height: 150 px;
-    min-width: 300 px;
+    height: 350 px;
+    width: 300 px;
     border-radius: 10px;
     margin: 10px;
     text-align: center;
@@ -67,12 +68,9 @@ form {
     padding-bottom: 5px;
 }
 
-img {
-max-width: 200px;
-max-height: 200px;
-transform: rotate(90deg);
-
-
+div > img{
+    width: fit-content;
+    height: 550px;
 
 }
 
