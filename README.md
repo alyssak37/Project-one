@@ -8,9 +8,9 @@ A simple way to find new recipes with any ingredient of your choosing!
 - jQuery v3.5
 
 
-I wanted to take a simple approach to this project but still something kinda cool.
+I wanted to take a simple approach to this project but still something fun that I was interested in.
 
-I would have liked my styling to look better than I have it and I wish I could of used my image like I wanted to. The image was a challenge.
+I would have liked my styling to look better than I have it. I had a different image I wanted to incorporate but I just could not get it to position the way I wanted it to.
 
 https://alyssak37.github.io/Project-one/
 
