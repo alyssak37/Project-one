@@ -7,3 +7,4 @@ A simple way to find new recipes with any ingredient of your choosing!
 - JavaScript
 - jQuery v3.5
 
+https://alyssak37.github.io/Project-one/

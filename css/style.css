@@ -23,16 +23,18 @@ main > section {
     flex-wrap: wrap;
     justify-content: center;
 
-    
 }
 
 .card {
-    height: 350 px;
-    width: 300 px;
+    height: 200 px;
+    width: 200 px;
     border-radius: 10px;
     margin: 10px;
     text-align: center;
     background-color: rgb(168, 190, 168);
+    font-family: fantasy;
+    font-size: 25px;
+    
 }
 
 .outline {
@@ -43,6 +45,12 @@ main > section {
     justify-content: center;
     align-items: center;
 }
+
+#title {
+    font-size: 16px;
+    font-family: Gill Sans;
+}
+
 
 header, footer {
     display: flex;
@@ -66,11 +74,12 @@ form {
     align-items: flex-end;
     height: 200px;
     padding-bottom: 5px;
+    
 }
 
 div > img{
     width: fit-content;
-    height: 550px;
+    height: 400px;
 
 }
 
