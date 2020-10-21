@@ -62,9 +62,8 @@ footer {
 header {
     font-family: Verdana;
     font-size: 35px;
-    text-shadow: 1px 1px 15px black;
-    color: rgb(111, 136, 111);
-    background-image: url('https://i.pinimg.com/originals/57/5a/91/575a9122da23e88bac33905301aa8632.jpg');
+    text-shadow: 1px 1px 8px black;
+    color: black;
 }
 
 form {

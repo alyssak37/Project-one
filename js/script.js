@@ -1,13 +1,10 @@
 //constants
 
-//const key = 'b3aa6bfee94a6040ffc0197c9eb92a1b'; first key
-//const id = '52c30435'; first id
-//const key = '7b5d37d71ff0cd6ec5ff345da2707fd1'; daniel's
-//const id = '4be09ebb'; daniel's
-//const key = '4108a648b77483595316cba0cc6ae440'; second key
-//const id = '76446193'; second id
-const key = '23ae21896dda4dd754b5755011b40c14';
-const id = '9ce5db68';
+
+//const key = '23ae21896dda4dd754b5755011b40c14';
+//const id = '9ce5db68';
+const key = '778bb74471ed83a168156b14aa172a62';
+const id = '056208fe';
 const BASE_URL = 'https://api.edamam.com/search'
 
 //variables
