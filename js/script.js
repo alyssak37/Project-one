@@ -40,7 +40,6 @@ function getData(event) {
         });
 }
 
-
 function renderRecipes() {
     const html = recipeData.map(function ({
         recipe
