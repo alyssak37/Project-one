@@ -1,4 +1,3 @@
-
 //constants
 
 //const key = 'b3aa6bfee94a6040ffc0197c9eb92a1b'; first key
@@ -25,33 +24,36 @@ $form.on('submit', getData);
 
 // functions
 init();
- function init() {
-    
- }
- 
- function getData(event){
-     event.preventDefault();
- 
- const userInput = $input.val();
-     $.ajax(BASE_URL + '?q=' + userInput + '&app_id=' + id + '&app_key=' + key)
-      .then(function(data) {
-         
-          recipeData = data.hits
-          renderRecipes();
-     }, function(error) {
-        console.log('Error:', error);
-     });
- }
- 
 
-function renderRecipes(){
-   const html = recipeData.map(function({recipe}){
-    return`
+function init() {
+
+}
+
+function getData(event) {
+    event.preventDefault();
+
+    const userInput = $input.val();
+    $.ajax(BASE_URL + '?q=' + userInput + '&app_id=' + id + '&app_key=' + key)
+        .then(function (data) {
+
+            recipeData = data.hits
+            renderRecipes();
+        }, function (error) {
+            console.log('Error:', error);
+        });
+}
+
+
+function renderRecipes() {
+    const html = recipeData.map(function ({
+        recipe
+    }) {
+        return `
     <div>
     <h3>${recipe.label}</h3>
     <p>${recipe.calories}</p>
     <p>${recipe.ingredients.map(obj => obj['text']).join('<br> ')}</p>
     </div>`;
-   });
-   $title.html(html)
+    });
+    $title.html(html)
 }

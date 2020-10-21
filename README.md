@@ -1,4 +1,4 @@
-# Recipe App
+# Recipe Finder
 A simple way to find new recipes with any ingredient of your choosing!
 
 ## Technologies 
@@ -14,4 +14,4 @@ I would have liked my styling to look better than I have it and I wish I could o
 
 https://alyssak37.github.io/Project-one/
 
-/Users/alyssakarakula/Desktop/project-one/wireframescreenshot.png
+https://imgur.com/yFBFuRh

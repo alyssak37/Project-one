@@ -1,10 +1,9 @@
-
 * {
     box-sizing: border-box;
     margin: 0px;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -15,10 +14,10 @@ main {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    
+
 }
 
-main > section {
+main>section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,12 +34,13 @@ main > section {
     font-family: fantasy;
     font-size: 25px;
     flex-grow: 1;
-    
+
 }
 
 .outline {
     border: 2px solid darkgrey;
 }
+
 .flex-ctr {
     display: flex;
     justify-content: center;
@@ -48,7 +48,8 @@ main > section {
 }
 
 
-header, footer {
+header,
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,12 +73,11 @@ form {
     width: 300px;
     padding-bottom: 5px;
     text-align: center;
-    
+
 }
 
-div > img{
+div>img {
     width: 775px;
     height: 350px;
 
 }
-
