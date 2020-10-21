@@ -9,7 +9,6 @@
 //const id = '76446193'; second id
 const key = '23ae21896dda4dd754b5755011b40c14';
 const id = '9ce5db68';
-
 const BASE_URL = 'https://api.edamam.com/search'
 
 //variables
@@ -29,11 +28,10 @@ init();
  function init() {
     
  }
-    
  
  function getData(event){
      event.preventDefault();
- //const url = detailURL ? detailURL :BASE_URL
+ 
  const userInput = $input.val();
      $.ajax(BASE_URL + '?q=' + userInput + '&app_id=' + id + '&app_key=' + key)
       .then(function(data) {
@@ -44,19 +42,9 @@ init();
         console.log('Error:', error);
      });
  }
-
- function handleGetData(event) {
-    event.preventDefault();
- }
  
-/*function handleClick() {
-    const url = this.dataset.url;
-    getData(url);
-};*/
-
 
 function renderRecipes(){
-   //$title.text(`Recipes Using: ${recipeData.hits.recipeDetail}`);
    const html = recipeData.map(function({recipe}){
     return`
     <div>

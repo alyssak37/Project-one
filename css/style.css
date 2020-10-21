@@ -34,6 +34,7 @@ main > section {
     background-color: rgb(168, 190, 168);
     font-family: fantasy;
     font-size: 25px;
+    flex-grow: 1;
     
 }
 
@@ -44,11 +45,6 @@ main > section {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#title {
-    font-size: 16px;
-    font-family: Gill Sans;
 }
 
 
@@ -65,21 +61,23 @@ header, footer {
 header {
     font-family: Verdana;
     font-size: 30px;
-    text-shadow: 1px 1px 10px rgb(243, 243, 164);
+    text-shadow: 1px 1px 10px rgb(245, 245, 136);
 }
 
 form {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: flex-end;
-    height: 200px;
+    height: 300px;
+    width: 300px;
     padding-bottom: 5px;
+    text-align: center;
     
 }
 
 div > img{
-    width: fit-content;
-    height: 400px;
+    width: 775px;
+    height: 350px;
 
 }
 
