@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(245, 231, 231);
+    background-image: url('https://us.123rf.com/450wm/mattanin/mattanin1710/mattanin171000095/88285342-raw-rice-in-wooden-spoonbowl-on-chopping-wood-plate-and-green-leaves-for-cook-the-seed-of-rice.jpg?ver=6');
 }
 
 main {
@@ -38,7 +38,7 @@ main>section {
 }
 
 .outline {
-    border: 2px solid darkgrey;
+    border: 2px solid black;
 }
 
 .flex-ctr {
@@ -53,16 +53,18 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(123, 155, 123);
-    height: 75px;
+    background-color: rgb(111, 136, 111);
+    height: 85px;
     min-width: auto;
 
 }
 
 header {
     font-family: Verdana;
-    font-size: 30px;
-    text-shadow: 1px 1px 10px rgb(245, 245, 136);
+    font-size: 35px;
+    text-shadow: 1px 1px 15px black;
+    color: rgb(111, 136, 111);
+    background-image: url('https://i.pinimg.com/originals/57/5a/91/575a9122da23e88bac33905301aa8632.jpg');
 }
 
 form {
