@@ -39,10 +39,9 @@ function getData(event) {
         });
 }
 
+
 function renderRecipes() {
-    const html = recipeData.map(function ({
-        recipe
-    }) {
+    const html = recipeData.map(function ({recipe}) {
         return `
     <div>
     <h3>${recipe.label}</h3>
