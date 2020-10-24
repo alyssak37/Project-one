@@ -1,9 +1,8 @@
 //constants
 
-//const key = '23ae21896dda4dd754b5755011b40c14';
-//const id = '9ce5db68';
-const key = '778bb74471ed83a168156b14aa172a62';
-const id = '056208fe';
+
+const key = 'My API';
+const id = 'My ID';
 const BASE_URL = 'https://api.edamam.com/search'
 
 //variables
